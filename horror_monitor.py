@@ -49,7 +49,7 @@ SENSOR_NAMES = [
     "System Corruption [%]"
 ]
 
-MESSAGE_TYPES = { # Словарь для типов сообщений и их цветов/тегов
+MESSAGE_TYPES = { 
     "[LOG]": FG_COLOR_NORMAL,
     "[DATA]": FG_COLOR_NORMAL,
     "[WARNING]": FG_COLOR_WARNING,
@@ -94,7 +94,7 @@ class MysteriousMonitor:
         root.geometry("1000x700")
         root.configure(bg=BG_COLOR)
 
-        # Настройка сетки
+        
         root.grid_columnconfigure(0, weight=1, uniform="group1")
         root.grid_columnconfigure(1, weight=1, uniform="group1")
         root.grid_rowconfigure(0, weight=1, uniform="group1")
