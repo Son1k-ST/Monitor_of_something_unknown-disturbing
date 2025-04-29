@@ -85,8 +85,6 @@ class MysteriousMonitor:
     def add_message(self):
         pass
     def update_messages(self):
-
-
         pass
 
 
