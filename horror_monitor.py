@@ -122,7 +122,7 @@ class MysteriousMonitor:
         tk.Label(self.graph_frame, text="[ ACTIVITY SPIKES ]", bg=BG_COLOR, fg=FG_COLOR_ALERT, font=(FONT_FAMILY, FONT_SIZE_LARGE, "bold")).grid(row=0, column=0, pady=(5, 0))
         self.graph_canvas = tk.Canvas(self.graph_frame, bg=BG_COLOR, highlightthickness=0)
         self.graph_canvas.grid(row=1, column=0, sticky="nsew", padx=10, pady=5)
-        self.graph_data = [random.uniform(20, 40)] * 100 # Больше точек для графика, более низкое начальное значение
+        self.graph_data = [random.uniform(20, 40)] * 100 
         self.graph_max_points = 100
 
 
